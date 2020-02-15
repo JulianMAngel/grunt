@@ -1,0 +1,62 @@
+* {
+    margin:0px;
+    padding:0px;
+    background-color: blue;
+    
+}
+#Portada{
+    width: 1348px;
+    height:700px;
+}
+
+#header {
+    margin-left: 200px;
+    width:1200px;
+    
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#0B2429;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    font-size: 40px;
+    font-family:"Times New Roman", Times, serif;
+}
+
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+p{
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    color: #fff;
+    text-align:justify;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
